@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: goldenrod;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    text-align:center;
+    background-color: whitesmoke;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+li{
+    list-style:decimal-leading-zero;
+    color: whitesmoke;   
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-main{
+    margin: auto;
+    width: 500px;
+    margin-top: 50px;
+    color:whitesmoke;
+}
+.about-main h1{
+    line-height: 1;
+    color:whitesmoke;
+}
+.about-main p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    margin-top: 20px;
+}
