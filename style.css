@@ -18,14 +18,33 @@
     margin: 0;
     padding: 0;
 }
+
+.essays{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:1em;
+    grid-auto-rows: minmax(100, auto);
+}
+.essays h2{
+    color:white;
+}
+
 header{
-    background-color: goldenrod;
+    color:blanchedalmond;
     text-align:center;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    font-size: 20px;
+    font-family: 'fungal';
+    animation-name: fungal-animation;
+    animation-duration: 9s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 body{
     background-color: black;
+    background-image: url(imgs/TheHull.jpg);
+    background-color: orangered;
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -34,7 +53,7 @@ a{
 nav{
     text-align:center;
     background-color: whitesmoke;
-    color:black;
+    color:darkslategray;
     font-size: 30px;
     font-weight: bold;
     justify-content: space-evenly;
@@ -54,15 +73,36 @@ li{
 }
 .about-main h1{
     line-height: 1;
+    font-family: 'fungal';
     color:whitesmoke;
+    animation-name: fungal-animation;
+    animation-duration: 9s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 .about-main p{
     font-size: 20px;
     font-family: 'fungal';
     color: goldenrod;
     margin-top: 20px;
+}
+
+.index-open{
+    background-image: url('imgs/TheHull');{ 
+    width: 100vh;
+    height: 100vw;
+}
+    font-size: 50px;
+    font-family: 'fungal';
+    color: orangered;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:25%;
+    font-family: 'fungal';
     animation-name: fungal-animation;
-    animation-duration: 2s;
+    animation-duration: 9s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
