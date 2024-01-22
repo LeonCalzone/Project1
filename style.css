@@ -87,6 +87,7 @@ header {
 body {
     background-color: whitesmoke;
     background-size: cover;
+    margin-bottom: 90px;
 }
 
 a {
